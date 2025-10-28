@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="1761646770446">
+      <static>true</static>
+      <pose>117.13 -116.67 -11.54 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://1761646770446/textures/1761646770446_height_map.tif</uri>
+              <size>1405.64 1399.99 26.2</size>
+              <pos>117.13 -116.67  -11.54</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://1761646770446/textures/1761646770446_aerial.png</diffuse>
+                <normal>model://1761646770446/textures/1761646770446_aerial.png</normal>
+                <size>1405.64 1399.99 26.2</size>
+              </texture>
+              <uri>model://1761646770446/textures/1761646770446_height_map.tif</uri>
+              <size>1405.64 1399.99 26.2</size>
+              <pos>117.13 -116.67 -11.54</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>
