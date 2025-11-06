@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <sdf version="1.9">
-  <world name="BMA">
+  <world name="1761646770446">
     <gravity>0 0 -9.8066</gravity>
 
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>40.085492271061355</latitude_deg>
-      <longitude_deg>-105.2328872680664</longitude_deg>
-      <elevation>1584.6000000000004</elevation>
+      <latitude_deg>40.08542641456704</latitude_deg>
+      <longitude_deg>-105.23391723632812</longitude_deg>
+      <elevation>1589.0</elevation>
     </spherical_coordinates>
 
         
@@ -35,13 +35,10 @@
 
     <!-- Environment model -->
     <include>
-      <uri>model://BMA</uri>
+      <uri>model://1761646770446</uri>
     </include>
 
-    <include>
-      <uri>https://fuel.gazebosim.org/1.0/saiaravind19/models/helipad</uri>
-    </include>
-
+  
 
   </world>
 </sdf>

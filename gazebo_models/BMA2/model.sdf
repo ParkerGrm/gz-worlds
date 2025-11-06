@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="BMA">
+      <static>true</static>
+      <pose>1.83 -1.82 -4.91 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://BMA/textures/BMA_height_map.tif</uri>
+              <size>311.12 309.89 11.8</size>
+              <pos>1.83 -1.82  -4.91</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://BMA/textures/BMA_aerial.png</diffuse>
+                <normal>model://BMA/textures/BMA_aerial.png</normal>
+                <size>311.12 309.89 11.8</size>
+              </texture>
+              <uri>model://BMA/textures/BMA_height_map.tif</uri>
+              <size>311.12 309.89 11.8</size>
+              <pos>1.83 -1.82 -4.91</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>
