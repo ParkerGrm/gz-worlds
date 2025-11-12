@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="pawnee_low">
+      <static>true</static>
+      <pose>810.51 115.13 -34.03 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://pawnee_low/textures/pawnee_low_height_map.tif</uri>
+              <size>4632.93 4613.7 70.8</size>
+              <pos>810.51 115.13  -34.03</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://pawnee_low/textures/pawnee_low_aerial.png</diffuse>
+                <normal>model://pawnee_low/textures/pawnee_low_aerial.png</normal>
+                <size>4632.93 4613.7 70.8</size>
+              </texture>
+              <uri>model://pawnee_low/textures/pawnee_low_height_map.tif</uri>
+              <size>4632.93 4613.7 70.8</size>
+              <pos>810.51 115.13 -34.03</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>
