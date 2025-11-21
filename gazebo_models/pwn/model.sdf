@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="pwn">
+      <static>true</static>
+      <pose>7314.97 1712.87 -96.52 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://pwn/textures/pwn_height_map.tif</uri>
+              <size>17151.47 17065.91 146.6</size>
+              <pos>7314.97 1712.87  -96.52</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://pwn/textures/pwn_aerial.png</diffuse>
+                <normal>model://pwn/textures/pwn_aerial.png</normal>
+                <size>17151.47 17065.91 146.6</size>
+              </texture>
+              <uri>model://pwn/textures/pwn_height_map.tif</uri>
+              <size>17151.47 17065.91 146.6</size>
+              <pos>7314.97 1712.87 -96.52</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>
