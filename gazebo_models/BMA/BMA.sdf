@@ -38,10 +38,7 @@
       <uri>model://BMA</uri>
     </include>
 
-    <include>
-      <uri>https://fuel.gazebosim.org/1.0/saiaravind19/models/helipad</uri>
-    </include>
-
+   
 
   </world>
 </sdf>
