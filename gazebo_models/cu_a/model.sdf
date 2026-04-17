@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="cu_a">
+      <static>true</static>
+      <pose>58.63 -58.4 -10.93 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://cu_a/textures/cu_a_height_map.tif</uri>
+              <size>1759.08 1751.95 39.2</size>
+              <pos>58.63 -58.4  -10.93</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://cu_a/textures/cu_a_aerial.png</diffuse>
+                <normal>model://cu_a/textures/cu_a_aerial.png</normal>
+                <size>1759.08 1751.95 39.2</size>
+              </texture>
+              <uri>model://cu_a/textures/cu_a_height_map.tif</uri>
+              <size>1759.08 1751.95 39.2</size>
+              <pos>58.63 -58.4 -10.93</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+
+
+
+    </model>
+</sdf>
